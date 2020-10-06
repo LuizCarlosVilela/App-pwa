@@ -20,14 +20,14 @@
     <div id="root"></div>
 
     <script>
-      if('serviceWorker' in navigator){
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./serviceworker.js')
-          .then((reg) => console.log("Sucess", reg.scope))
-          .cath((erro) => console.log('Error'))
-        })
+      if('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./serviceworker.js')
+            .then((reg) => console.log('Sucess', reg.scope))
+            .catch((err) => console.log('Error'))
+          })
       }
-    </script>
+  </script>
     
   </body>
 </html>
