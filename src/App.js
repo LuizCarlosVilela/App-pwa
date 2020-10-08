@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Oiiii Geovanna, gostou um App/Site só para você baby!</p>
+        <p>Tudo bom com você baby? Me responde se você ver ksks</p>
       </header>
     </div>
   );
